@@ -1,0 +1,72 @@
+# --- OS & system junk ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Logs & temp files ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.tmp
+tmp/
+temp/
+
+# --- Environment variables (if you add backend or API keys later) ---
+.env
+.env.*
+!.env.example
+
+# --- Node.js / Package managers (if you add tooling later) ---
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Build or compiled outputs (future use: bundlers or web servers) ---
+dist/
+build/
+.cache/
+.tmp/
+.parcel-cache/
+.vite/
+.out/
+public/build/
+coverage/
+
+# --- Serverless & deployment systems (optional future use) ---
+.netlify/
+.vercel/
+.serverless/
+.aws-sam/
+functions/**/node_modules/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- Database or local state (for offline saves or experiments) ---
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# --- Archive files ---
+*.zip
+*.tar
+*.gz
+*.tgz
+
+# --- OS-specific preview / backup ---
+*.swp
+*.swo
+*.bak
+
+# --- GitHub Pages (keep .nojekyll visible!) ---
+!.nojekyll
+
+# --- Keep actual game files tracked ---
+# Games and assets (index.html, JS, CSS, images) are *not* ignored
+# so your site will publish correctly
